@@ -9,7 +9,6 @@ This repository demonstrates training a compact convolutional neural network on 
 - `MNIST_Training_in_less_than_20k_Params.ipynb` — Jupyter notebook showing the full process: model definition, training, validation, and evaluation.  
 - `data/` — MNIST data is downloaded here via torchvision.  
 - `README.md` — This file.  
-- `requirements.txt` — Python package dependencies.  
 
 ---
 
@@ -29,9 +28,9 @@ This repository demonstrates training a compact convolutional neural network on 
 |-----------|----------------|----------------|
 | **Tiny model (<20k params)** | Few convolutional filters, small FC layer | Forces careful balance: enough capacity to learn but not so much that overfitting or resource waste happens |
 | **Batch Normalization (after conv layers)** | Helps stabilize & accelerate training, allows use of higher learning rates | Reduces internal covariate shift; helps gradients be more stable |
-| **Dropout (light, after FC layer, after activation)** | Helps generalization without crippling the model | Dropout after ReLU in FC removes random active units, reducing co‑adaptation |
+| **Dropout (light, after FC layer, after activation)** | Helps generalization without crippling the model | Dropout after ReLU in FC removes random active units, reducing co‑adaptation | Avoided in small conv layers.
 | **Data Augmentation** | Small rotations / translations (via `RandomRotation`, `RandomAffine`) | Makes model robust to small input perturbations; helps reduce overfit |
-| **Optimizer & Learning Rate** | SGD with momentum, moderate LR (e.g. 0.01), with scheduling | Momentum helps smooth optimization; scheduling avoids getting stuck at accuracy plateaus |
+| **Optimizer & Learning Rate** | SGD with momentum, moderate LR (e.g. 0.01), with scheduling | Momentum helps smooth optimization; scheduling avoids getting stuck at accuracy plateaus | Idea is to start with higher LR and reduce it over time to fine tune.
 | **Training / Validation Tracking** | Monitor both loss & accuracy over epochs | Ensures you see overfitting vs under‑fitting; decide whether to increase capacity or regularization |
 
 ---
@@ -45,11 +44,7 @@ This repository demonstrates training a compact convolutional neural network on 
    cd ERAv4S5
 ````
 
-2. Install dependencies (you can use `requirements.txt`):
-
-   ```bash
-   pip install -r requirements.txt
-   ```
+2. Install dependencies
 
 3. Open and run the notebook:
 
@@ -77,7 +72,7 @@ This repository demonstrates training a compact convolutional neural network on 
 
 ## 🔍 Tips for Pushing Further
 
-* **Try different dropout rates** (e.g. 0.1, 0.2) or adding very light dropout after convolutional blocks.
+* **Try different batch sizes. Batch size and Learning can usually be adjusted to same multiplier to speed up learning. 
 * **Experiment with learning rate schedules**: e.g., cosine annealing, step decay, or manual decay.
 * **Adjust augmentation strength** carefully — too much distortion can hurt learning.
 * **Explore small architectural tweaks**: fewer conv layers vs smaller fully connected layers vs adding 1×1 convolutions.
