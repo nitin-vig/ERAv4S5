@@ -115,3 +115,102 @@ If you want, I can generate a version of this README customized with exact numbe
 ::contentReference[oaicite:0]{index=0}
 ```
 
+Logs:
+ Epoch: 1 : 
+loss=0.2783926725387573 batch_id=468: 100%|██████████| 469/469 [00:56<00:00,  8.36it/s]
+Test set: Average loss: 0.0851, Accuracy: 9724/10000 (97.24%)
+
+
+ Epoch: 2 : 
+loss=0.16270093619823456 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.19it/s]
+Test set: Average loss: 0.0417, Accuracy: 9864/10000 (98.64%)
+
+
+ Epoch: 3 : 
+loss=0.3241729140281677 batch_id=468: 100%|██████████| 469/469 [00:49<00:00,  9.41it/s]
+Test set: Average loss: 0.0450, Accuracy: 9849/10000 (98.49%)
+
+
+ Epoch: 4 : 
+loss=0.16042646765708923 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.33it/s]
+Test set: Average loss: 0.0320, Accuracy: 9913/10000 (99.13%)
+
+
+ Epoch: 5 : 
+loss=0.09749811887741089 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.33it/s]
+Test set: Average loss: 0.0357, Accuracy: 9882/10000 (98.82%)
+
+
+ Epoch: 6 : 
+loss=0.2068089246749878 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.06it/s]
+Test set: Average loss: 0.0252, Accuracy: 9922/10000 (99.22%)
+
+
+ Epoch: 7 : 
+loss=0.07782670110464096 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.27it/s]
+Test set: Average loss: 0.0229, Accuracy: 9924/10000 (99.24%)
+
+
+ Epoch: 8 : 
+loss=0.050765182822942734 batch_id=468: 100%|██████████| 469/469 [00:52<00:00,  8.97it/s]
+Test set: Average loss: 0.0239, Accuracy: 9930/10000 (99.30%)
+
+
+ Epoch: 9 : 
+loss=0.09250655770301819 batch_id=468: 100%|██████████| 469/469 [00:58<00:00,  7.98it/s]
+Test set: Average loss: 0.0236, Accuracy: 9923/10000 (99.23%)
+
+
+ Epoch: 10 : 
+loss=0.13224434852600098 batch_id=468: 100%|██████████| 469/469 [00:52<00:00,  8.88it/s]
+Test set: Average loss: 0.0204, Accuracy: 9932/10000 (99.32%)
+
+
+ Epoch: 11 : 
+loss=0.0859462320804596 batch_id=468: 100%|██████████| 469/469 [00:52<00:00,  8.87it/s]
+Test set: Average loss: 0.0216, Accuracy: 9930/10000 (99.30%)
+
+
+ Epoch: 12 : 
+loss=0.1554780751466751 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.11it/s]
+Test set: Average loss: 0.0211, Accuracy: 9936/10000 (99.36%)
+
+
+ Epoch: 13 : 
+loss=0.14891232550144196 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.19it/s]
+Test set: Average loss: 0.0206, Accuracy: 9938/10000 (99.38%)
+
+
+ Epoch: 14 : 
+loss=0.03960130736231804 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.26it/s]
+Test set: Average loss: 0.0201, Accuracy: 9932/10000 (99.32%)
+
+
+ Epoch: 15 : 
+loss=0.09557536989450455 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.35it/s]
+Test set: Average loss: 0.0223, Accuracy: 9934/10000 (99.34%)
+
+
+ Epoch: 16 : 
+loss=0.05995398387312889 batch_id=468: 100%|██████████| 469/469 [00:50<00:00,  9.31it/s]
+Test set: Average loss: 0.0201, Accuracy: 9943/10000 (99.43%)
+
+
+ Epoch: 17 : 
+loss=0.05822938680648804 batch_id=468: 100%|██████████| 469/469 [00:54<00:00,  8.53it/s]
+Test set: Average loss: 0.0198, Accuracy: 9936/10000 (99.36%)
+
+
+ Epoch: 18 : 
+loss=0.09200435876846313 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.11it/s]
+Test set: Average loss: 0.0190, Accuracy: 9941/10000 (99.41%)
+
+
+ Epoch: 19 : 
+loss=0.07043924182653427 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.02it/s]
+Test set: Average loss: 0.0205, Accuracy: 9937/10000 (99.37%)
+
+
+ Epoch: 20 : 
+loss=0.06360998004674911 batch_id=468: 100%|██████████| 469/469 [00:51<00:00,  9.14it/s]
+Test set: Average loss: 0.0187, Accuracy: 9940/10000 (99.40%)
