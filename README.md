@@ -42,7 +42,7 @@ This repository demonstrates training a compact convolutional neural network on 
    ```bash
    git clone https://github.com/nitin-vig/ERAv4S5.git
    cd ERAv4S5
-````
+   ````
 
 2. Install dependencies
 
