@@ -1,8 +1,3 @@
-Here’s a **README.md** file you can add to your repo. It includes lots of learning‑focused comments to help anyone understand *why* the choices were made. You can save it as `README.md`.
-
----
-
-````markdown
 # MNIST Training with <20,000 Parameters
 
 This repository demonstrates training a compact convolutional neural network on the MNIST dataset with **fewer than 20,000 trainable parameters**, while still achieving high accuracy. Emphasis is placed on understanding design choices, trade‑offs, and techniques for efficient learning.
@@ -119,9 +114,7 @@ Use that to guide your changes — if you enlarge something (more filters, large
 
 Thank you for exploring — happy learning and experimenting! 🚀
 
-```
 
----
 
 If you want, I can generate a version of this README customized with exact numbers (parameter count, accuracy) pulled from your notebook, so the README matches your results. Do you want that?
 ::contentReference[oaicite:0]{index=0}
